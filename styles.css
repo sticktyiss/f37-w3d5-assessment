@@ -1,0 +1,83 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+.checkbx {
+	display: inline-block;
+}
+
+img {
+	max-width: 300px;
+}
+
+/* Begin profile styles */
+.btn {
+	background-color: yellow;
+	padding: 15px;
+	margin: 10px;
+}
+
+section {
+	margin: 10px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.265);
+}
+
+section h2 {
+	margin-top: 0px;
+	padding: 10px;
+	text-decoration: underline;
+	text-decoration-color: grey;
+}
+
+#skills {
+	text-align: start;
+}
+
+#interests {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+div li{
+	display: block;
+	padding: 2px;
+}
+
+#goals {
+	text-align: end;
+}
+
